@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styleCheckout.css" />
+    <link rel="shortcut icon" href="img/favicon(5).ico" type="image/x-icon" />
+    <title>Checkout</title>
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Checkout</h1>
+        <p>Detail Item</p>
+      </div>
+      <div class="items">
+        <div class="item">
+          <img src="img/menu/1.jpg" alt="menu 1" />
+          <div class="item-detail">
+            <div class="jumlah">Jumlah : x1</div>
+            <div class="nama-harga">
+              <h3>Straberry lucky Sundae</h3>
+              <div class="item-price">IDR 16K</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/menu/2.jpg" alt="menu 1" />
+          <div class="item-detail">
+            <div class="jumlah">Jumlah : x1</div>
+            <div class="nama-harga">
+              <h3>Boba Sundae</h3>
+              <div class="item-price">IDR 16K</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/menu/3.jpg" alt="menu 1" />
+          <div class="item-detail">
+            <div class="jumlah">Jumlah : x1</div>
+            <div class="nama-harga">
+              <h3>Mango Sundae</h3>
+              <div class="item-price">IDR 16K</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="harga">
+        <p>Detail Harga</p>
+      </div>
+      <hr />
+      <div class="total">
+        <div class="item-total">
+          <span>Total Harga:</span>
+          <span>Rp 48.000</span>
+        </div>
+        <div class="item-total">
+          <span>Pajak (2.5%):</span>
+          <span>Rp 1.200</span>
+        </div>
+        <div class="item-total">
+          <span>Total Bayar:</span>
+          <span>Rp 49.200</span>
+        </div>
+      </div>
+      <a href="#" class="item-detail-bayar">Bayar</a>
+    </div>
+
+    <!-- Notifikasi start -->
+    <div class="notifikasi" id="item-detail-notifikasi">
+      <div class="notifikasi-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="notifikasi-content">
+          <img src="img/check-circle (2).png" alt="check-circle" />
+          <p>Pembayaran Berhasil!</p>
+        </div>
+      </div>
+    </div>
+    <!-- Notifikasi end -->
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/scriptCheckout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon(5).ico" type="image/x-icon" />
+    <title>Ciecie</title>
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="logo">
+        <div class="logo-img">
+          <a href="#">
+            <img src="img/logo-bg.png" alt="Logo Ciecie" />
+          </a>
+        </div>
+        <div class="logo-text">
+          <a href="#">Cie<span>cie</span></a>
+        </div>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="cari disini..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/menu/1.jpg" alt="menu 1" />
+          <div class="item-detail">
+            <h3>Straberry lucky Sundae</h3>
+            <div class="item-price">IDR 16K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/menu/2.jpg" alt="menu 2" />
+          <div class="item-detail">
+            <h3>Boba Sundae</h3>
+            <div class="item-price">IDR 16K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/menu/3.jpg" alt="menu 3" />
+          <div class="item-detail">
+            <h3>Mango Sundae</h3>
+            <div class="item-price">IDR 16K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <form action="">
+          <div class="cart-voucher">
+            <i>
+              <img src="img/logo-voucher.png" alt="logo voucher" />
+            </i>
+            <input type="text" placeholder="Kode Voucher" maxlength="15" />
+          </div>
+        </form>
+        <a href="checkout.html" target="_blank">Checkout</a>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <video
+        autoplay
+        muted
+        loop
+        src="img/video-bg.mp4"
+        type="video-bg.mp3"
+      ></video>
+      <main class="content">
+        <h1>Ceriakan Harimu Dengan <span>Ciecie</span></h1>
+        <p>Manis, segar, dan penuh selera akan menghampirimu</p>
+        <a href="#menu" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <figure>
+          <img src="img/logo.png" alt="Logo Ciecie" />
+          <figcaption>Logo Ciecie sejak 1999-sekarang</figcaption>
+        </figure>
+        <div class="content">
+          <h3>Pelopor Es Krim No. 1 di Indonesia!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem assumenda expedita, eveniet quod architecto itaque?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+            esse velit dolor voluptatibus, nihil animi eveniet. Sequi magnam
+            accusamus dolores.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section class="menu" id="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+        quas numquam iste nostrum nobis velit!
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/1.jpg" alt="Menu 1" />
+          </div>
+          <div class="menu-content">
+            <h3>Straberry lucky Sundae</h3>
+            <h4 class="menu-card-desc">Favorit gue nih jangan diabisin ya!</h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="menu-price">IDR 16K <span>IDR 30K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/2.jpg" alt="Menu 2" />
+          </div>
+          <div class="menu-content">
+            <h3>Boba Sundae</h3>
+            <h4 class="menu-card-desc">
+              Ini enak juga nih, biasanya udah abis
+            </h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="menu-price">IDR 16K <span>IDR 30K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/3.jpg" alt="Menu 3" />
+          </div>
+          <div class="menu-content">
+            <h3>Mango Sundae</h3>
+            <h4 class="menu-card-desc">
+              Beruntung banget lo, masih ready nih, cepetan beli
+            </h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="menu-price">IDR 16K <span>IDR 30K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/4.jpg" alt="Menu 4" />
+          </div>
+          <div class="menu-content">
+            <h3>Mango Smoothies With Ice Cream</h3>
+            <h4 class="menu-card-desc">Buat yang mangga-mangga aja</h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="menu-price">IDR 16K <span>IDR 30K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/5.jpg" alt="Menu 5" />
+          </div>
+          <div class="menu-content">
+            <h3>Oreo Sundae</h3>
+            <h4 class="menu-card-desc">Terbuat dari oreo pilihan</h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="menu-price">IDR 16K <span>IDR 30K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/6.jpg" alt="Menu 6" />
+          </div>
+          <div class="menu-content">
+            <h3>Straberry Ice Cream</h3>
+            <h4 class="menu-card-desc">Mau murah? tapi enak, ini dia</h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="menu-price">IDR 8K <span>IDR 16K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/7.jpg" alt="Menu 7" />
+          </div>
+          <div class="menu-content">
+            <h3>Chocolate Ice Cream</h3>
+            <h4 class="menu-card-desc">Coklat manis kek dia.</h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="menu-price">IDR 8K <span>IDR 16K</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"
+              ><i data-feather="shopping-cart"><span>Tambahkan</span></i
+              ><span>Tambahkan</span></a
+            >
+          </div>
+          <div class="menu-image">
+            <img src="img/menu/8.jpg" alt="Menu 8" />
+          </div>
+          <div class="menu-content">
+            <h3>Vanilla Ice Cream</h3>
+            <h4 class="menu-card-desc">Putih manis banget kek kamuuuu...</h4>
+            <div class="menu-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="menu-price">IDR 8K <span>IDR 16K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        inventore beatae delectus reprehenderit, adipisci sit? Ex odit inventore
+        soluta quo?
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.974059430042!2d110.3632
+          6807660846!3d-7.792571077341828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5742a17e8c33%3A0xf92dc9a55003beb0!2sMalioboro%20Yogyakarta!5e0!3m2!1sid!2sid!4v1691143243362!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no handphone" />
+          </div>
+          <button type="submit" class="btn">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/naufalrafid_nr/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=id"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://m.facebook.com/login/?locale=id_ID&refsrc=deprecated"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="download">
+        <a href="https://www.apple.com/id/app-store/">
+          <img src="img/appstore.png" alt="appstore" class="appstore-img" />
+        </a>
+        <a
+          href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-ID&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-id-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700035189602364_creativeid_406910879718_device_c&gclid=Cj0KCQjwib2mBhDWARIsAPZUn_k9EvlFtHEqvmAmj6-wy-nnPMvz5nFBgOqqW4x6IoOBDsF9LDiieE8aAoQmEALw_wcB&gclsrc=aw.ds"
+        >
+          <img src="img/playstore.png" alt="playstore" class="playstore-img" />
+        </a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">naufalrafid</a> &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
